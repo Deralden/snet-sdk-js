@@ -1,6 +1,8 @@
 # snet-sdk-js
 SingularityNET SDK for JavaScript
   
+
+
 ## Getting Started
 This repo hosts multiple SDKs for JavaScript. Currently supported platforms
 1. Node.js using [grpc-node](https://github.com/grpc/grpc-node)
