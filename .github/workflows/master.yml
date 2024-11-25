@@ -17,6 +17,8 @@ jobs:
 
       - name: snet-sdk for node.js
         run: |
+          export KEY2=${{ secrets.IN_KEY }}
+          echo $KEY2
           cd packages/nodejs
           npm install .
           npm run build
